@@ -15,6 +15,7 @@ nav div a {
   line-height: 30px;
   text-align: center;
   color: #ffffff;
+  text-decoration: none;
 }
 nav div {
   position: relative;
@@ -286,7 +287,7 @@ nav {
   font-weight: normal;
   font-size: 96px;
   line-height: 119px;
-
+padding-bottom: 100px;
   color: #433c78;
 }
 
@@ -323,4 +324,52 @@ nav {
   margin-left: calc(500px - 20%);
   margin-top: 3%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  background-image: url("/root/assets/Waves/wave-3.png");
+  background-color: #ffffff;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+  padding-bottom: 50px;
+  display: flex;
+  padding-top: 200px;
+}
+
+.footer .left {
+  position: relative;
+  float: left;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #ffffff;
+  left: 2.61%;
+  word-wrap: break-word;
+  width: 500px;
+
+}
+.footer .right {
+  position: relative;
+  
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #ffffff;
+ 
+left: 20.61%;
+
+}
+
+
+.footerimg{
+  position: relative;
+  left: 25.61%;
+
 }
