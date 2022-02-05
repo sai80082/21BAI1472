@@ -132,7 +132,7 @@ nav {
 
 .aboutus .para1 {
   position: relative;
-  left: 50%;
+  left: 12%;
 
   font-family: Poppins;
   font-style: normal;
@@ -140,9 +140,49 @@ nav {
   font-size: 26px;
   line-height: 39px;
   text-align: right;
-  inline-size: 876px;
+  inline-size: 75%;
   color: #ffffff;
   margin: 0;
+}
+
+.aboutusline2 {
+  position: relative;
+  margin-top: 100px;
+  left: 5%;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+
+  color: #ffffff;
+}
+
+.aboutus2para {
+  position: relative;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  inline-size: 50%;
+  color: #ffffff;
+  left: 5%;
+}
+
+.aboutusflex2 img {
+  position: relative;
+  align-self: center;
+  padding-right: 50px;
+  width: 300px;
+  height: auto;
+}
+
+.aboutusflex2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  padding-bottom: 100px;
 }
 
 .work {
@@ -151,11 +191,13 @@ nav {
   background-size: auto;
   background-repeat: no-repeat;
   background-size: 110% 100%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .workheading {
+  padding-top: 5%;
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 30px;
+  text-decoration-thickness: 3px;
   font-family: Righteous;
   font-style: normal;
   font-weight: normal;
@@ -163,6 +205,12 @@ nav {
   line-height: 119px;
   text-align: center;
   color: #ffffff;
+}
+.work .logo {
+  position: relative;
+  padding-top: 4%;
+  float: left;
+  margin-top: 1%;
 }
 
 .work p {
@@ -173,6 +221,8 @@ nav {
   line-height: 54px;
   text-align: center;
   color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .work2 {
   background: #ffffff;
@@ -185,6 +235,27 @@ nav {
   line-height: 144px;
   text-align: center;
   color: #022275;
+}
+.hexagons img {
+  width: 250px;
+  height: auto;
+}
+
+.hexagons {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.row2{
+  position: relative;
+  top: -50px;
+}
+.row3{
+  position: relative;
+  top: -100px;
 }
 .work3heading {
   font-family: Poppins;
@@ -202,6 +273,7 @@ nav {
   justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .projectsheading {
@@ -212,6 +284,18 @@ nav {
   line-height: 144px;
   text-align: center;
   color: #022275;
+}
+.projectsimg {
+  margin-top: 30px;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.projectsimg img {
+  width: 200px;
+  height: auto;
 }
 
 .eventsinline {
@@ -287,7 +371,7 @@ nav {
   font-weight: normal;
   font-size: 96px;
   line-height: 119px;
-padding-bottom: 100px;
+  padding-bottom: 100px;
   color: #433c78;
 }
 
@@ -350,11 +434,10 @@ padding-bottom: 100px;
   left: 2.61%;
   word-wrap: break-word;
   width: 500px;
-
 }
 .footer .right {
   position: relative;
-  
+
   font-family: Righteous;
   font-style: normal;
   font-weight: normal;
@@ -362,14 +445,18 @@ padding-bottom: 100px;
   line-height: 79px;
   text-align: center;
   color: #ffffff;
- 
-left: 20.61%;
-
+  left: 20.61%;
 }
 
-
-.footerimg{
+.footerimg {
   position: relative;
   left: 25.61%;
+}
 
+.contactus .inline{
+  position: relative;
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  margin-right: 300px;
 }

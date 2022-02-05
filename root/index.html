@@ -14,13 +14,16 @@
 </head>
 
 <body>
-    <nav>
-        <img src="/root/assets/Home/rocket-img.png">
+    <nav id="home">
+        <a href="#home">
+            <img src="/root/assets/Home/rocket-img.png">
+        </a>
+
         <div>
-            <a>Home</a>
-            <a>About Us</a>
-            <a>Our Work</a>
-            <a>Our Events</a>
+            <a href="#home">Home</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#work">Our Work</a>
+            <a href="#events">Our Events</a>
             <a href="#contact">Contacts</a>
         </div>
     </nav>
@@ -40,34 +43,39 @@
         <img src="/root/assets/Home/img.png">
     </div>
     <img src="/root/assets/Waves/wave-1.png" class="whitewave" style="background: #521755;">
-    <div class="aboutus">
-        <div class="heading1">
+    <div class="aboutus" id="aboutus">
+        <div class="heading1" style="padding-top: 5%;">
             About ZBC
         </div>
         <div class="aboutusline1">
+            <img src="/root/assets/About/zbc-logo.png"
+                style="width: 200px; height: auto; float: left; margin-left: 5%;">
             <p class="para1">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget dolor tristique, dignissim nibh in,
                 ultrices sem. Nunc et ante sed turpis egestas porttitor. Fusce tincidunt, neque vel porttitor ultricies,
                 arcu tellus interdum elit, eget dignissim justo magna ut leo. Aenean ut tellus mattis, imperdiet diam
                 id, vehicula mauris. Nam cursus elementum diam quis auctor.
             </p>
-            <img src="/root/assets/About/zbc-logo.png">
-            <div class="aboutusline2">
-                About Space Divison
-            </div>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget dolor tristique, dignissim nibh
-                    in, ultrices sem. Nunc et ante sed turpis egestas porttitor. Fusce tincidunt, neque vel porttitor
-                    ultricies, arcu tellus interdum elit, eget dignissim justo magna ut leo. Aenean ut tellus mattis,
-                    imperdiet diam id, vehicula mauris. Nam cursus elementum diam quis auctor.
-                </p>
-                <img src="/root/assets/About/img.png">
-            </div>
+        </div>
+        <div class="aboutusline2">
+            About Space Divison
+        </div>
+        <div class="aboutusflex2">
+            <p class="aboutus2para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget dolor tristique, dignissim nibh
+                in, ultrices sem. Nunc et ante sed turpis egestas porttitor. Fusce tincidunt, neque vel porttitor
+                ultricies, arcu tellus interdum elit, eget dignissim justo magna ut leo. Aenean ut tellus mattis,
+                imperdiet diam id, vehicula mauris. Nam cursus elementum diam quis auctor.
+            </p>
+            <img src="/root/assets/About/img.png">
         </div>
 
+
     </div>
-    <div class="work">
+    <div class="work" id="work">
+        <a href="#home">
+            <img src="/root/assets/Home/rocket-img.png" class="logo">
+        </a>
         <div class="workheading">
             Our Work
         </div>
@@ -81,6 +89,18 @@
             Moon Launch
         </div>
         <div class="hexagons">
+            <div class="row1" style="display: flex;">
+                <img src="/root/assets/Moon Launch/Polygon 1.png">
+            </div>
+            <div class="row2" style="display: flex; translate: 210px;">
+                <img src="/root/assets/Moon Launch/Polygon 2.png">
+                <img src="/root/assets/Moon Launch/Polygon 3.png">
+            </div>
+            <div class="row3" style="display: flex;">
+                <img src="/root/assets/Moon Launch/Polygon 4.png">
+                <img src="/root/assets/Moon Launch/Polygon 5.png">
+                <img src="/root/assets/Moon Launch/Polygon 6.png">
+            </div>
 
         </div>
         <div class="work3heading">
@@ -95,12 +115,19 @@
         <div class="projects">
             <div class="projectsheading">Other Projects</div>
             <div class="projectsimg">
-                <img>
+                <img src="/root/assets/Projects Slider/img-1.png">
+                <img src="/root/assets/Projects Slider/img-2.png">
+                <img src="/root/assets/Projects Slider/img-3.png">
+                <img src="/root/assets/Projects Slider/img-4.png">
+                <img src="/root/assets/Projects Slider/img-5.png">
+                <img src="/root/assets/Projects Slider/img-6.png">
             </div>
         </div>
-        <div class="events">
+        <div class="events" id="events">
             <div class="eventsinline">
-                <img src="/root/assets/Home/rocket-img.png">
+                <a href="#home">
+                    <img src="/root/assets/Home/rocket-img.png" >
+                </a>
                 <div class="eventsheading">
                     Our Events
                 </div>
@@ -132,6 +159,29 @@
                         <input placeholder="Enter your message" style="padding-bottom: 100px;">
                         <button>LAUNCH</button>
                     </form>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=chennai&t=&z=5&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://fmovies-online.net"></a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 500px;
+                                    width: 500px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">map embed iframe</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 500px;
+                                    width: 500px;
+                                }
+                            </style>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer">
@@ -153,7 +203,7 @@
                         <img src="/root/assets/social/Vector-4.png">
                     </div>
                 </div>
-                <img src="/root/assets/Footer/img.png" width="100px" height="100px" class="footerimg"> 
+                <img src="/root/assets/Footer/img.png" width="100px" height="100px" class="footerimg">
             </div>
 
 
