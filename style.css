@@ -186,7 +186,7 @@ nav {
 }
 
 .work {
-  background: url("/root/assets/Waves/wave-2.png");
+  background: url("assets/Waves/wave-2.png");
   background-color: #ffffff;
   background-size: auto;
   background-repeat: no-repeat;
@@ -299,7 +299,7 @@ nav {
 }
 
 .eventsinline {
-  background-image: url("/root/assets/Waves/wave-4.png");
+  background-image: url("assets/Waves/wave-4.png");
   background-color: #ffffff;
   background-size: auto;
   background-repeat: no-repeat;
@@ -411,7 +411,7 @@ nav {
 }
 
 .footer {
-  background-image: url("/root/assets/Waves/wave-3.png");
+  background-image: url("assets/Waves/wave-3.png");
   background-color: #ffffff;
   background-size: auto;
   background-repeat: no-repeat;
